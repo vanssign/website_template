@@ -12,10 +12,20 @@ padding-bottom:16px
    
 }
 @media (max-width:576px){
-    .jumbotron{
-    height: 100vh;
+    .fs-sm-min{
+    min-height: 100vh !important;
+}
+.fs-sm{
+    height:100vh !important;
+}
+.fs-sm-max{
+    max-height: 100vh!important;
 
-    }
+}
+.container{
+    margin-left:0px !important;
+}
+
 }
 .bg-lp,.btn-lp{
     background-color:#fbcbc9 !important;
