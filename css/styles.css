@@ -52,14 +52,24 @@ padding-bottom:16px
         text-decoration-color: whitesmoke !important;
 
     }
+    .text-ep{
+        text-decoration-color: #be1558 !important;
+
+    }
     .text-lp{
         text-decoration-color: #fbcbc9 !important;
     }
-    .text-ep{
-        text-decoration-color:#be1558 !important ;
-    }
+    
     .text-brown{
         text-decoration-color: #322514 !important;
+    }
+    .fa-minus{
+        opacity:0.5;
+
+    }
+    .disease{
+        margin:5% !important;
+       padding:8px !important;
     }
     /* .text-dp{
 
