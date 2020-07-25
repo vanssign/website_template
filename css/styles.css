@@ -1,7 +1,18 @@
+html,body{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+    height:100%;
+}
+.fix-overflow{
+    width:100%;
+}
+
 *{font-family: 'Titillium Web', sans-serif;}
 .container{
     padding-top: 16px;
-padding-bottom:16px
+padding-bottom:16px;
 }
 .embed-responsive{
     margin:8px;
