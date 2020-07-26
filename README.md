@@ -5,9 +5,11 @@ Responsive
 #Languages
 HTMl,CSS,JS
 #Frameworks 
-Bootstrap --v4.4
+Bootstrap --v4.5
 #Toolkits
-Font Awesome 
+Font Awesome --v5.14.0
 #Libraries
-Jquery 
+Jquery
+#Design Inpiration:https://websitedemos.net/multimed-04/
+
 
