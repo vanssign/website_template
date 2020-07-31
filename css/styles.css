@@ -49,7 +49,9 @@ padding-bottom:16px;
     background-color: #eedee1 !important;
 }
 .navbar,.bg-dp,.btn-dp{
-    background-color: #df6589ff !important;
+    /* background-color: #df6589ff !important; */
+    background: url(../assets/dpbg.jpg) center center fixed!important;
+    background-size: cover;
     border-color:#df6589ff !important;
 }
 .btn-ep,.bg-ep{
