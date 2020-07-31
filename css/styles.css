@@ -40,7 +40,9 @@ padding-bottom:16px;
     margin-left:0px !important;
 }
 
+
 }
+
 .bg-white,.btn-white{
     background-color:white !important;
     border-color:white !important;
@@ -54,10 +56,15 @@ padding-bottom:16px;
     background-size: cover;
     border-color:  #f17aa7!important;
 }
+
+    
+
 .btn-ep,.bg-ep{
     
-    background-color: #f17aa7 !important;
-    border-color: #f17aa7 !important;
+    /* background-color: #fd5bab !important;
+    border-color: #fd5bab !important; */
+    background-color: #fd92d6;
+    border-color: #fd92d6;
     
     }
     .btn-ep:hover{
