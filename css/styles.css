@@ -8,6 +8,9 @@ html,body{
 .fix-overflow{
     width:100%;
 }
+.navlink{
+    font-size: 25px;
+}
 
 *{font-family: 'Titillium Web', sans-serif;
 box-sizing:border-box;}
