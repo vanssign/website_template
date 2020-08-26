@@ -51,7 +51,7 @@ padding-bottom:16px;
     border-color:white !important;
 }
 .bg-lp{
-    background-color: #bb3168 !important;
+    background-color: #e978a5 !important;
 }
 .navbar,.bg-dp,.btn-dp{
     /* background-color: #df6589ff !important; */
@@ -70,8 +70,9 @@ padding-bottom:16px;
     border:0px;
     }
     .btn-ep:hover{
-        background-color:#bb3168 !important;
-        border-color:#bb3168 !important;
+        background-color:#bb195a !important;
+        border-color: black !important;
+        border:2px;
     }
     .btn-dp:hover{
         background-image: none !important;
