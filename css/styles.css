@@ -19,6 +19,9 @@ box-sizing:border-box;}
 padding-bottom:16px;
 }
 
+.navbar-toggler{
+    padding:8px 14px 8px 14px;
+}
 
 .embed-responsive{
     margin:8px;
