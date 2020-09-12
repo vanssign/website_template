@@ -9,7 +9,7 @@ html,body{
     width:100%;
 }
 .nav-item{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 *{font-family: 'Titillium Web', sans-serif;
@@ -51,11 +51,11 @@ padding-bottom:16px;
     border-color:white !important;
 }
 .bg-lp{
-    background-color: #e978a5 !important;
+    background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important;
 }
 .navbar,.bg-dp,.btn-dp{
     /* background-color: #df6589ff !important; */
-    background: url(../assets/dmbg.jpeg) center center fixed!important;
+    background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important;
     background-size: cover;
     border:0px;
 }
@@ -66,7 +66,7 @@ padding-bottom:16px;
     
     /* background-color: #fd5bab !important;
     border-color: #fd5bab !important; */
-    background-color: #bb3168;
+    background-color: #d45a8b;
     border:0px;
     }
     .btn-ep:hover{
@@ -76,8 +76,8 @@ padding-bottom:16px;
     }
     .btn-dp:hover{
         background-image: none !important;
-        background-color:#bb3168 !important;
-        border-color:#bb3168 !important;
+        background-color:#e46598 !important;
+        border-color:#e46598 !important;
     }
     .btn-hover{
     height:86%;
@@ -85,7 +85,7 @@ width:86%;
 }
 
     .btn-hover:hover{
-        background:  #bb3168;
+        background:  #f381ae !important;
     }
     .text-white{
         text-decoration-color: white !important;
