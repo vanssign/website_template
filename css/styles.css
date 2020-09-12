@@ -54,11 +54,13 @@ padding-bottom:16px;
     border-color:white !important;
 }
 .bg-lp{
-    background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important;
+    /* background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important; */
+    background: url("../assets/opbg.jpg") center center fixed! important
 }
 .navbar,.bg-dp,.btn-dp{
     /* background-color: #df6589ff !important; */
-    background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important;
+    /* background: url("https://htmlcolors.com/gradients-images/89-beautiful-pink-gradient.jpg") center center fixed!important; */
+    background: url("../assets/opbg.jpg") center center fixed! important;
     background-size: cover;
     border:0px;
 }
