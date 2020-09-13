@@ -19,7 +19,9 @@ box-sizing:border-box;}
 padding-bottom:16px;
 }
 
-
+.carousel{
+    padding-bottom:4px;
+}
 
 .embed-responsive{
     margin:8px;
@@ -27,6 +29,7 @@ padding-bottom:16px;
 }
 .jumbotron{
     margin-bottom:0px;
+    padding-top:28px;
    
 }
 @media (max-width:576px){
@@ -105,7 +108,9 @@ width:86%;
         text-decoration-color: #bb3168 !important;
 
     }
-   
+   .navbar{
+       padding-bottom:0px;
+   }
     
     .text-brown{
         text-decoration-color: #bb3168 !important;
@@ -117,6 +122,11 @@ width:86%;
     .disease{
         margin:5% !important;
        padding:8px !important;
+    }
+
+    .text-ob{
+        color: black;
+        opacity:0.5;
     }
 
     /* .text-dp{
