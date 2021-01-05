@@ -37,17 +37,15 @@
                             form.classList.add('was-validated');
                             event.preventDefault();
                             if(form.checkValidity()===true){
-                              document.getElementById('btnSend').innerText="Sending"
+                              document.getElementById('btnSend').innerText="Sending..."
                   // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
         
                     // service id, templateid
                     emailjs.sendForm('contact_service', 'template_v2de4gc', this).then(function () {
-                        console.log('SUCCESS!');
                         document.getElementById('contactForm').innerText = "Thanks for contacting. We will get back to shortly through your phone or mail";
                     }, function (error) {
-                        console.log('FAILED...', error);
-                        document.getElementById('contactForm').innerText="We could not deliver your message.  Please reach out to us through the contact info mentioned at the end";
+                        document.getElementById('contactForm').innerText="Sorry, We could not deliver your message. Please reach out to us freely through other modes mentioned";
                     });
                   }
                             
@@ -166,7 +164,7 @@
                         <div class="text-ob">
                             <i class="fas fa-minus fa-2x"></i>
                         </div>
-                        <div id="contactForm">
+                        <div id="contactForm" class="container">
                             <form id="contact-form" class="needs-validation" novalidate>
                                 <input type="hidden" name="contact_number">
                                 <div class="form-group">
@@ -199,7 +197,7 @@
                                 </div>
                                 <div class="form-group">
                                     <input class="form-check-input" type="checkbox" value="" id="form-check-label" required>
-                                    <label class="form-check-label" for="gridCheck">
+                                    <label class="form-check-label" for="form-check-label">
                                         I confirm the details belong to me and agree to being contacted freely by The Healing Artist
                                     </label>
                                     <div class="invalid-feedback">
