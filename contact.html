@@ -37,15 +37,18 @@
                             form.classList.add('was-validated');
                             event.preventDefault();
                             if(form.checkValidity()===true){
-                                document.getElementById('btnSend').style.padding="0px";
-                              document.getElementById('btnSend').innerHTML="<img src='./assets/btnLoader.gif' >"
+                            //     document.getElementById('btnSend').style.padding="0px";
+                            //   document.getElementById('btnSend').innerHTML="<img src='./assets/btnLoader.gif' >"
+                              document.getElementById("contactForm").innerHTML="<img src='https://i.pinimg.com/originals/a2/de/bf/a2debfb85547f48c3a699423ba75f321.gif' style='width:100%; height:auto;'>"
                   // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
         
                     // service id, templateid
                     emailjs.sendForm('contact_service', 'template_v2de4gc', this).then(function () {
+                        document.getElementById('contactForm').style.color='green';
                         document.getElementById('contactForm').innerText = "Thanks for contacting. We will get back to shortly through your phone or mail";
                     }, function (error) {
+                        document.getElementById('contactForm').style.color='red';
                         document.getElementById('contactForm').innerText="Sorry, We could not deliver your message. Please reach out to us freely through other modes mentioned";
                     });
                   }
@@ -165,7 +168,8 @@
                         <div class="text-ob">
                             <i class="fas fa-minus fa-2x"></i>
                         </div>
-                        <div id="contactForm" class="container">
+                        <div id="contactForm">
+                            <div class="container">
                             <form id="contact-form" class="needs-validation" novalidate>
                                 <input type="hidden" name="contact_number">
                                 <div class="form-group">
@@ -207,6 +211,7 @@
                                 </div>
                                 <button id="btnSend" type="send" value="send" class="btn btn-dark btn-dp">Send</button>
                             </form>
+                        </div>
                         </div>
                     </div>
                 </div>
