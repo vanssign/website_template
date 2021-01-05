@@ -37,7 +37,8 @@
                             form.classList.add('was-validated');
                             event.preventDefault();
                             if(form.checkValidity()===true){
-                              document.getElementById('btnSend').innerText="Sending..."
+                                document.getElementById('btnSend').style.padding="0px";
+                              document.getElementById('btnSend').innerHTML="<img src='./assets/btnLoader.gif' >"
                   // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
         
