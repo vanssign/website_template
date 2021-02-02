@@ -1,136 +1,149 @@
-html,body{
-    width:100%;
-    margin:0px;
-    padding:0px;
-    overflow-x: hidden;
-    height:100%;
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  height: 100%;
 }
-.fix-overflow{
-    width:100%;
+.fix-overflow {
+  width: 100%;
 }
-.nav-item{
-    font-size: 25px;
-}
-
-*{font-family: 'Titillium Web', sans-serif;
-box-sizing:border-box;}
-.container{
-    padding-top: 16px;
-padding-bottom:16px;
+.nav-item {
+  font-size: 25px;
 }
 
-.carousel{
-    padding-bottom:4px;
+* {
+  font-family: "Titillium Web", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
-.embed-responsive{
-    margin:8px;
+.carousel {
+  padding-bottom: 4px;
+}
 
+.embed-responsive {
+  margin: 8px;
 }
-.jumbotron{
-    margin-bottom:0px;
-    padding-top:28px;
-   
+.jumbotron {
+  margin-bottom: 0px;
+  padding-top: 28px;
 }
-@media (max-width:576px){
-    .fs-sm-min{
+@media (max-width: 576px) {
+  .fs-sm-min {
     min-height: 100vh !important;
-}
-.fs-sm{
-    height:100vh !important;
-}
-.fs-sm-max{
-    max-height: 100vh!important;
-
-}
-.container{
-    margin-left:0px !important;
-}
-
-
+  }
+  .fs-sm {
+    height: 100vh !important;
+  }
+  .fs-sm-max {
+    max-height: 100vh !important;
+  }
+  .container {
+    margin-left: 0px !important;
+  }
 }
 
-.bg-white,.btn-white{
-    background-color:white !important;
-    border-color:white !important;
+.bg-white,
+.btn-white {
+  background-color: white !important;
+  border-color: white !important;
 }
-.bg-lp{
-  
-    background: url("../assets/opbg.jpg") center center fixed! important;
-    /* background: url("https://wallpapercave.com/wp/vPopEp4.png") center center fixed !important; */
+.bg-lp {
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: url("https://wallpapercave.com/wp/vPopEp4.png") center center fixed !important; */
 }
-.navbar,.bg-dp,.btn-dp{
-    
-    background: url("../assets/opbg.jpg") center center fixed! important;
-    /* background: url("https://wallpapercave.com/wp/vPopEp4.png") center center fixed !important; */
-    background-size: cover;
-    border:0px;
+.navbar,
+.bg-dp,
+.btn-dp {
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 0px;
 }
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-  }
-  
- .navbar-toggler {
-    border-color: rgb(255,255,255) !important;
-  } 
-
-    
-
-.btn-ep,.bg-ep{
-    
-    /* background-color: #fd5bab !important;
-    border-color: #fd5bab !important; */
-    background-color: #db5879;
-    border:0px;
-    }
-    .btn-ep:hover{
-        background-color:#bb195a !important;
-        border-color: black !important;
-        border:2px;
-    }
-    .btn-dp:hover{
-        background-image: none !important;
-        background-color:#db5879 !important;
-        border-color:#db5879 !important;
-    }
-    .btn-hover{
-    height:86%;
-width:86%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
-    .btn-hover:hover{
-        background:  #ec7a7a !important;
-    }
-    .text-white{
-        text-decoration-color: white !important;
+.navbar-toggler {
+  border-color: rgb(255, 255, 255) !important;
+}
 
-    }
-    .text-ep{
-        text-decoration-color: #bb3168 !important;
+.btn-ep,
+.bg-ep {
+  /* background-color: #fd5bab !important;
+    border-color: #fd5bab !important; */
+  background-color: #db5879;
+  border: 0px;
+}
+.btn-ep:hover {
+  background-color: #bb195a !important;
+  border-color: black !important;
+  border: 2px;
+}
+.btn-dp:hover {
+  background-image: none !important;
+  background-color: #db5879 !important;
+  border-color: #db5879 !important;
+}
+.btn-hover {
+  height: 86%;
+  width: 86%;
+}
 
-    }
-   .navbar{
-       padding-bottom:0px;
-   }
-    
-    .text-brown{
-        text-decoration-color: #bb3168 !important;
-    }
-    .fa-minus{
-        opacity:0.8;
+.btn-hover:hover {
+  background: #ec7a7a !important;
+}
+.text-white {
+  text-decoration-color: white !important;
+}
+.text-ep {
+  text-decoration-color: #bb3168 !important;
+}
+.navbar {
+  padding-bottom: 0px;
+}
 
-    }
-    .disease{
-        margin:5% !important;
-       padding:8px !important;
-    }
+.text-brown {
+  text-decoration-color: #bb3168 !important;
+}
+.fa-minus {
+  opacity: 0.8;
+}
+.disease {
+  margin: 5% !important;
+  padding: 8px !important;
+}
 
-    .text-ob{
-        color: black;
-        opacity:0.5;
-    }
+.text-ob {
+  color: black;
+  opacity: 0.5;
+}
 
-    /* .text-dp{
+/* .text-dp{
 
 
     }
@@ -139,7 +152,6 @@ width:86%;
 
     } */
 
-
-    /* background-color: #bb3168 !important;
+/* background-color: #bb3168 !important;
     border-color:#bb3168 !important ;
 } */
