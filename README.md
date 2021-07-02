@@ -1,5 +1,6 @@
 # website_template
-Website for The Healing Artist
+- Website for The Healing Artist, a clinic in Dehradun, Uttarakhand, India.
+- Website is live at https://thehealingartist.in
 
 ## Languages
 HTMl, CSS, JavaScript
